@@ -1,0 +1,127 @@
+/*nav*/
+#navbar {
+   flex-direction: column;
+   justify-content:space-evenly;
+}
+#navbar ul li{
+    font-size:0.5rem;
+}
+#navbar ul{
+    justify-content:space-evenly;
+    align-items: center;
+}
+#navbar::before{
+    width:128%;
+}
+#navbar ul li a{
+    padding: 3px 20px;
+}
+/*home*/
+#home{
+    height:608px;
+}
+
+#home::before{
+ width: 128%;
+}
+#home .h-primary{
+    font-size: 2rem;
+    padding-left: 90px;
+}
+#plan{
+    display: none;
+}
+#home .h-secondary{
+    padding-left: 90px;
+}
+#home p{
+    padding-left: 80px;
+}
+.btn{
+    margin-left: 90px;
+}
+/*services*/
+#services{
+    flex-direction:column;
+}
+#menu-col{
+    flex-direction: column;
+}
+#menu-col2{
+    flex-direction: column;
+}
+#services .box{
+    width:130%;
+    height:120%;
+}
+#services-container h1{
+    padding-left: 70px;
+}
+/*menu*/
+#menu-col .box2 img{
+    height: 250px;
+    width: 350px;
+}
+#menu-col2 .box2 img{
+    height: 250px;
+    width: 350px;
+}
+.layer{
+  width:111%;
+}
+.box2{
+    padding-left:15px;
+}
+#menu h1{
+    padding-left:90px;
+}
+/*card*/
+#cardy h1{
+    padding-left: 90px;
+    font-size: 1.75rem;
+}
+.cardy-body{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-left: 80px;
+    
+}
+.midddle{
+    padding-bottom: 30px;
+}
+/*review*/
+.primary{
+    padding-left: 60px;
+}
+.review-body{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-left: 80px;
+}
+#review::before{
+    height:180%;
+    width:115%;
+}
+/*contact*/
+#contact h1{
+    padding-left:50px;
+}
+.contact-box{
+   
+    padding-left: 60px;
+}
+.contact-box input {
+    width: 70%;
+    margin-left: 60px;
+
+}
+.contact-box textarea {
+    padding-left: 30px;
+
+}
+/*footer*/
+footer{
+    width:115%;
+}
